@@ -18,7 +18,7 @@ Follow these steps to get up and running with our search engine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Gyanendra-baghel/search-engine.git
+   git clone https://github.com/Gyanendra-baghel/Gyan-SearchEngine.git
    ```
 
 2. **Database Setup:**
