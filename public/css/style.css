@@ -1,0 +1,148 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-section {
+    margin: 5px;
+}
+
+.search-section {
+    margin-top: 0.5rem;
+}
+
+.search-box {
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 2px 2px 0 #00000029, 0 0 0 1px #00000014;
+    border-radius: 2px;
+    outline: none;
+    font-size: 1rem;
+    width: 70%;
+    max-width: 630px;
+    color: #000000;
+}
+
+.search-button {
+    padding: 5px;
+    color: #757575;
+    background-color: #F5F5F5;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 0 #00000029, 0 0 0 1px #00000014;
+
+}
+
+.container {
+    border-bottom: 1px solid #808080;
+    width: 70%;
+    max-width: 40rem;
+    margin: auto;
+    box-shadow: 0 2px 2px 0 #00000029, 0 0 0 1px #00000014;
+
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.tab-list {
+    display: flex;
+    padding: 5px;
+}
+
+.tab-list li {
+    margin: 10px;
+    display: inline-block;
+    padding: 0 10px 5px 5px;
+    font-size: 13px;
+}
+
+.tab-list li a {
+    color: #777777;
+    text-decoration: none;
+}
+
+li.active {
+    border-bottom: 3px solid #1A73E8;
+}
+
+li.active a {
+    font-weight: bold;
+    color: #1A73E8;
+}
+
+/* ------------------------------------------ */
+.no-result {
+    padding: 20px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 #00000029, 0 0 0 1px #00000014;
+}
+
+.no-result li {
+    margin: 5px;
+    margin-left: 25px;
+}
+
+/* Results area */
+.results-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+    width: 70%;
+    max-width: 40rem;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.results-section .results-count {
+    font-size: 13px;
+    color: #808080;
+    margin: 10px;
+}
+
+.result-container {
+    padding: 10px 10px;
+    box-shadow: 0 2px 2px 0 #00000029, 0 0 0 1px #00000014;
+}
+
+.result-container .title {
+    margin: 0;
+}
+
+.result-container .title a {
+    color: #0a499b;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.result-container .title a:hover {
+    text-decoration: underline;
+}
+
+.result-container .url {
+    color: gray;
+    font-size: 12px;
+}
+
+.result-container .description {
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+/* Image Result */
+.m-20 {
+    margin-top: 20px;
+}
+
+.center {
+    text-align: center;
+}
