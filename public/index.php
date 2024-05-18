@@ -3,6 +3,8 @@ define("BASE_PATH", dirname(__DIR__));
 
 require_once BASE_PATH . '/vendor/autoload.php';
 
+$dotenv = new Symfony\Component\Dotenv\Dotenv();
+$dotenv->load(BASE_PATH.'/.env');
 
 use Ryxo\Route;
 use App\controllers\SiteController;

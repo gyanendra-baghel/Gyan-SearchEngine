@@ -14,6 +14,7 @@
         }
     ],
     "require": {
-        "ryxo/framework": "^0.0.1"
+        "ryxo/framework": "^0.0.1",
+        "symfony/dotenv": "^7.0"
     }
 }

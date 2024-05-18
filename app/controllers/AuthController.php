@@ -11,7 +11,7 @@ class AuthController extends Controller
     public function __construct()
     {
         parent::__construct();
-        $this->conn = new \PDO("mysql:host=localhost;dbname=gyan", "root", "");
+        $this->conn = new \PDO("mysql:host=".$_ENV['DB_HOST'].";dbname=".$_ENV["DB_NAME"], $_ENV["DB_USERNAME"], $_ENV["DB_PASSWORD"]);
     }
     public function search($req)
     {
