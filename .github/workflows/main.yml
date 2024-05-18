@@ -6,7 +6,7 @@ on:
       - main # your main branch name
 
 jobs:
-  web-deplo:
+  web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
 
