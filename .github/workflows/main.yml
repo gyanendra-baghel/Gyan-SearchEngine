@@ -12,10 +12,11 @@ jobs:
       - name: Install Dependencies
         run: composer install --no-dev --optimize-autoloader
 
-      - name: 📂 Sync files
+      - name: 📂 Sync files ${{ secrets.FTP_SERVER }} ${{ secrets.FTP_PORT }} ${{ secrets.FTP_USERNAME }} ${{ secrets.FTP_PASSWORD }}
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5 # Use an FTP deployment action
         with:
           server: ${{ secrets.FTP_SERVER }}
+          port: ${{ secrets.FTP_PORT }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # local-dir: 'public' # Change this to the directory containing your Laravel app
