@@ -1,10 +1,5 @@
 name: 🚀 Deploy Ryxo App
-
-on:
-  push
-    branches:
-      - main # your main branch name
-
+on: push
 jobs:
   web-deploy:
     name: 🎉 Deploy
