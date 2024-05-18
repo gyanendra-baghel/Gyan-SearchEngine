@@ -20,4 +20,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # local-dir: 'public' # Change this to the directory containing your Laravel app
-          # server-dir: '/path/to/remote/directory' # Change this to the directory on your server where you want to deploy
+          server-dir: '/public_html' # Change this to the directory on your server where you want to deploy
