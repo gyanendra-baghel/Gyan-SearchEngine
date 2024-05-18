@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "51107f4c3c07a56aec5d35e5defa9bc6",
+    "packages": [
+        {
+            "name": "ryxo/framework",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Gyanendra-baghel/ryxo-framework.git",
+                "reference": "5eb19d0e9c02d290dd23f052b3ac5d72d3528542"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gyanendra-baghel/ryxo-framework/zipball/5eb19d0e9c02d290dd23f052b3ac5d72d3528542",
+                "reference": "5eb19d0e9c02d290dd23f052b3ac5d72d3528542",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/utils.php"
+                ],
+                "psr-4": {
+                    "Ryxo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gyanendra Baghel",
+                    "email": "gyanendrabaghel633@gmail.com"
+                }
+            ],
+            "description": "A lightweight and fast PHP framework designed for sprinting through development.",
+            "keywords": [
+                "framework",
+                "ryxo"
+            ],
+            "support": {
+                "issues": "https://github.com/Gyanendra-baghel/ryxo-framework/issues",
+                "source": "https://github.com/Gyanendra-baghel/ryxo-framework/tree/0.0.1"
+            },
+            "time": "2023-11-13T10:44:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
